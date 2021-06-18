@@ -1,0 +1,23 @@
+{
+  "name": "cli-webscrap",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PazzeG/cli-webscrap.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PazzeG/cli-webscrap/issues"
+  },
+  "homepage": "https://github.com/PazzeG/cli-webscrap#readme",
+  "dependencies": {
+    "puppeteer": "^10.0.0"
+  }
+}
