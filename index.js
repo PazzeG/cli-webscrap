@@ -14,10 +14,10 @@ const puppeteer = require('puppeteer');
 // récupérer les données
         for (element of elements){
             movies.push({
-                img: element.querySelector('img').src,
-                title: element.querySelector('a.elco-anchor').text,
-                date: element.querySelector('span.elco-date').textContent,
-                about: element.querySelector('p.elco-options').innerText.trim()
+                img: element.querySelector('img')?.src,
+                title: element.querySelector('a.elco-anchor')?.text,
+                date: element.querySelector('span.elco-date')?.textContent,
+                about: element.querySelector('p.elco-options')?.innerText.trim()
             })
         }
         return movies;
